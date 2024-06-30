@@ -1,0 +1,72 @@
+.chip-main-wrap{
+    height: 100%;
+    width: 100%;
+    padding-left: 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.chip-wrap{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    /* margin-left: 17%; */
+    padding-left: 1rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.chips{
+    padding: 0.4rem 0.8rem;
+    background-color: var(--icon-background-colour);
+    border-radius: 8px;
+    margin-right: 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.chips:hover{
+    background-color: var(--hover-background-colour);
+}
+
+.chip-suggestion-nav-button-wrap-backward{
+    width: 7%;
+    height: 100%;
+    /* right: 76%; */
+    /* right: 86%; */
+    position: absolute;
+    z-index: 1;
+    background: var(--chip-nav-back-button)
+}
+
+
+.chip-suggestion-nav-button-wrap-forward{
+    /* display: none; */
+    width: 7%;
+    height: 100%;
+    left: 93%;
+    position: absolute;
+    z-index: 1;
+    /* transition: 0.5s ease; */
+    background: var(--chip-nav-forward-button)
+}
+
+.chip-wrap-forward-button-click{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    transition: 0.5s ease !important;
+}
+
+.chip-suggestion-nav-button-icon-wrap{
+    width: 40%;
+    height: 70%;
+    /* background-color: antiquewhite; */
+    border-radius: 50%;
+}
+
+.chip-suggestion-nav-button-icon-wrap:hover{
+    background-color: var(--hover-background-colour);
+}

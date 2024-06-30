@@ -1,0 +1,14 @@
+.collapsed-sidebar{
+    background-color: var(--background-colour);
+    /* background-color: black; */
+    height: calc(100vh - 3.5rem);
+    width: calc(100%);
+}
+
+.collapsed-sidebar-icon{
+    font-size: 1.5rem;
+}
+
+.collapsed-sidebar-icon-word{
+    font-size: 0.6rem;
+}

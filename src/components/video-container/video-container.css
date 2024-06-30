@@ -1,0 +1,27 @@
+.main-video-container-wrap{
+    /* background-color: aqua; */
+    height: 100%;
+}
+
+.video-row{
+    height: 18rem;
+    width: calc(100%);
+    /* background-color: antiquewhite; */
+}
+
+.video-wrap{
+    height: 100%;
+    width: calc(32%);
+    border-radius: 20px;
+    /* background-color: aqua; */
+}
+
+.video-details-wrap{
+    padding-left: 1rem;
+}
+
+.video{
+    width: 99%;
+    border-radius: 20px;
+}
+
